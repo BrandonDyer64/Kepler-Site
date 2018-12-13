@@ -15,21 +15,21 @@ class App extends Component {
           <p style={{ maxWidth: "450px", margin: "auto" }}>
             Kepler is an{" "}
             <b>
-              <a target="_blank" href="https://github.com/BrandonDyer64/Viav">
+              <a target="_blank" href="https://github.com/BrandonDyer64/Kepler">
                 open source
               </a>
             </b>{" "}
-            game engine designed for modern indie and AAA game development.
+            game engine designed for modern Indie and AAA game development.
           </p>
         </header>
         <section>
           <div className="add-btn-container">
             <a
-              href="https://github.com/BrandonDyer64/Kepler/releases/latest"
+              href="https://github.com/BrandonDyer64/Kepler"
               className="btn btn-primary btn-large"
               target="_blank"
             >
-              Download
+              GitHub
             </a>
             <Link to="/features" className="btn btn-light btn-large">
               Features

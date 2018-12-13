@@ -20,6 +20,11 @@ body {
   font-weight: 300;
 }
 
+::selection {
+  color: white;
+  background: var(--primary);
+}
+
 b,
 strong {
   font-weight: 600;
@@ -92,6 +97,7 @@ pre {
 
 a:hover {
   text-decoration: none;
+  color: #80dcff;
 }
 
 .container {
@@ -159,10 +165,14 @@ header p {
 }
 
 .features-page section {
-  padding-top: 60px !important;
-  padding-bottom: 60px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.nopad {
+  padding: 0px;
 }
 
 .channels-img-parent {
