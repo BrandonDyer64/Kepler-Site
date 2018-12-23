@@ -59,10 +59,10 @@ class Navbar extends Component {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://www.youtube.com/playlist?list=PLH1_-2i0HG4rq4M1c6J_HMiIYLFNM69Wp"
+                  href="https://github.com/BrandonDyer64/Kepler/wiki"
                   target="_blank"
                 >
-                  Tutorials
+                  Docs
                 </a>
               </li>
             </ul>

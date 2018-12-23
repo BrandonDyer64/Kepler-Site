@@ -21,6 +21,9 @@ class App extends Component {
             </b>{" "}
             game engine designed for modern Indie and AAA game development.
           </p>
+          <p>
+            <b>Work in progress.</b>
+          </p>
         </header>
         <section>
           <div className="add-btn-container">
