@@ -1,9 +1,10 @@
 :root {
   /*--blue: #7289da;*/
-  --blue: #00b8ff;
+  --blue: #82b1ff;
   --gray: #99aab5;
   --gray-dark: #2c2f33;
-  --dark: #23272a;
+  --dark: #263238;
+  --background: #263238;
 
   --primary: var(--blue);
 
@@ -11,7 +12,7 @@
 }
 
 .bg-gray-dark {
-  background-color: var(--gray-dark);
+  background-color: var(--background);
 }
 
 body {
@@ -80,7 +81,8 @@ h3 {
 }
 
 body {
-  /*background-color: var(--dark) !important;*/
+  color: white;
+  background-color: var(--dark) !important;
 }
 
 p {
